@@ -1,7 +1,11 @@
 let favoriteBooks = [];
+const word = 'Beauty';
 
 function addFavoriteBook(bookName) {
-  // Start coding here !
+  if (bookName.includes(word)) {
+    favoriteBooks.push(bookName)
+    bookName
+  } 
 }
 
 // Example case
